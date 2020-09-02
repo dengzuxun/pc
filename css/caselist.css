@@ -1,0 +1,214 @@
+.curtain {
+	height: 300px;
+	background-image: url("//14517553.s61i.faiusr.com/2/AD0IsYr2BhACGAAgto_2zAUo-OmsRTCADzisAg.jpg");
+}
+
+.curtain-content-list {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.curtain-content-list {
+	display: flex;
+}
+
+.curtain-list-left {
+	width: 220px;
+	border: 1px solid #eee;
+	height: 280px;
+	margin-top: 40px;
+
+}
+.actives{
+	color: #ff0000 !important;
+}
+.curtain-list-left h3 {
+	font-size: 16px;
+	color: #fff;
+	background: #2b2b2b;
+	height: 45px;
+	line-height: 45px;
+	text-indent: 8px;
+}
+
+.curtain-list-left a {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	text-indent: 30px;
+	color: #555555;
+}
+
+.curtain-list-left a:hover {
+	color: #000000;
+}
+
+.curtain-list-right {
+	width: 960px;
+	text-align: center;
+	position: relative;
+	margin-left: 20px;
+	
+}
+.curtain-list-right >p{
+	font-size: 23px;
+	line-height: 25px;
+	height: 25px;
+	margin: 5px 10px 22px;
+	text-align: left;
+}
+
+.curtain-list-right img {
+	width: 659px;
+	height: 453px;
+	color: #4b4b4b;
+	
+}
+
+.photoPagena {
+	position: absolute;
+	position: absolute;
+	height: 48px;
+	width: 48px;
+	top: 203px;
+	z-index: 2
+}
+
+.photoShowPrevIcon {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201710171650) no-repeat 0 -12px;
+	left: 58px;
+}
+
+.J_photoShowPrev:hover {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201907171253) no-repeat -50px -12px;
+	cursor: pointer;
+}
+
+.photoShowNextIcon {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201907171253) no-repeat -0 -68px;
+	right: 58px;
+}
+
+.J_photoShowNext:hover {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201907171253) no-repeat -50px -68px;
+	cursor: pointer;
+}
+
+.img-list-item img {
+	width: 131px;
+	height: 89.95px;
+}
+
+.img-list-item {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.img-list-item li {
+	position: relative;
+}
+
+.optices {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	background-color: #fff;
+	display: none;
+}
+
+.img-title {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	padding-bottom: 75px;
+	border-bottom: 1px solid #eee;
+}
+
+.img-share {
+	display: flex;
+	position: relative;
+}
+
+.share-items {
+	margin-right: 15px;
+}
+
+.share-items a {
+	display: inline-block;
+}
+
+.icon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.icon1 {
+	background: url(http://2.ss.faisys.com/image/site/n_shareIcn.png?v=201807251417) -29px 0 no-repeat;
+}
+
+.icon2 {
+	background: url(http://2.ss.faisys.com/image/site/n_shareIcn.png?v=201807251417) -56px 0 no-repeat;
+}
+
+.icon3 {
+
+	background: url(http://2.ss.faisys.com/image/site/n_shareIcn.png?v=201807251417) -387px 0 no-repeat;
+}
+
+.icon4 {
+	background: url(http://2.ss.faisys.com/image/site/n_shareIcn.png?v=201807251417) -253px 0 no-repeat;
+}
+
+.icon5 {
+	background: url(http://2.ss.faisys.com/image/site/n_shareIcn.png?v=201807251417) -412px 0 no-repeat;
+}
+
+.icons {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201907171253) no-repeat 0 -140px;
+}
+
+.icons1 {
+	background: url(http://2.ss.faisys.com/image/v2/vbg01.png?v=201907171253) no-repeat 0 -165px;
+}
+
+.share-btn {
+	padding: 0 10px;
+	position: relative;
+	z-index: 99;
+	border: 1px solid transparent; 
+	border-bottom: none; 
+	background: #fff;
+	cursor: pointer;
+}
+.icon-data-list{
+	width: 100px;
+	position: absolute;
+	z-index: 99;
+}
+
+.share-btn p {
+	display: inline-block;
+	vertical-align: super;
+}
+
+.icon-list-item {
+	position: absolute; 
+	width: 220px;
+	right: -1px;
+	text-align: left;
+	padding: 20px 0;
+	z-index: 1;
+	top: 22px;
+	border: 1px solid  transparent; 
+	background-color: #fff;
+}
+.icon-list-item span{
+	margin-left: 5px;
+}

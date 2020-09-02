@@ -1,0 +1,92 @@
+.serve-tab-img {
+	background: url("//14517553.s61i.faiusr.com/2/AD0IsYr2BhACGAAg7Zq2zAUox7bmtwQwgA84rAI.jpg") no-repeat 50% 50%;
+	height: 300px;
+}
+
+
+
+.serve-item-content {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.serve-item-left {
+	width: 218px;
+	text-indent: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.serve-item-left div{
+	border: 1px solid #eee;
+	padding-bottom: 10px;
+}
+
+.serve-item-right {
+	width: 950px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+.serve-item-ul li {
+	display: flex;
+	padding: 25px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.serve-item-left h3 {
+	height: 45px;
+	line-height: 45px;
+	display: block;
+	font-size: 16px;
+	background-color: #222222;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+.serve-item-left p {
+	height: 28px;
+}
+
+.serve-item-left p:nth-of-type(1) {
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+}
+
+
+
+.serve-item-right>div {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #eee;
+}
+
+.serve-item-right>div p {
+	padding: 0 10px;
+	border-bottom: 2px solid #000000;
+	display: inline-block;
+	font-size: 15px;
+}
+
+
+.serve-ul-img {
+	padding-left: 10px;
+}
+
+.serve-ul-text {
+	padding-left: 30px;
+}
+
+.serve-ul-text h4 {
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #333333;
+}
+
+.serve-ul-text p {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999999;
+}

@@ -1,127 +1,10 @@
-/* 头部 */
-html {
-	min-width: 1903px;
-}
-
-.logo,
-.logo-left,
-.logo-right {
-	display: flex;
-}
-
-
-
-.logo {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.logo-left {
-	white-space: nowrap;
-	min-width: 405px;
-}
-
-.logo-left-img img {
-	width: 105px;
-	height: 97px;
-}
-
-.logo-right img {
-	width: 58px;
-	height: 58px;
-}
-
-.logo-left-text {
-	font-size: 30px;
-	font-weight: bold;
-	color: rgb(9, 101, 172);
-	line-height: 97px;
-}
-
-.logo-center {
-	margin-left: 100px;
-	vertical-align: middle;
-	line-height: 25px;
-	min-width: 290px;
-	max-width: 1440px;
-	white-space: nowrap;
-}
-
-.logo-center div:nth-of-type(1) {
-	margin-top: 20px;
-}
-
-.logo-right {
-	margin-left: 30px;
-	margin-top: 20px;
-	min-width: 10px;
-	max-width: 1440px;
-	white-space: nowrap;
-}
-}
-
-.logo-right-text {
-	margin-left: 10px;
-}
-
-.logo-right-text p:nth-of-type(1) {
-	font-size: 14px;
-}
-
-.logo-right-text p:nth-of-type(2) {
-	color: rgb(228, 57, 60);
-	font-weight: bold;
-	font-style: italic;
-	font-size: 36px;
-	cursor: move;
-}
-
-/* 导航条 */
-.tabar {
-	background-color: black;
-	min-width: 1024px;
-}
-
-.taber_item {
-	display: flex;
-	width: 1200px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.taber_item li {
-	height: 50px;
-	line-height: 50px;
-	width: 100px;
-	color: #fff;
-	text-decoration: none;
-	font-size: 16px;
-	font-weight: normal;
-	font-family: 微软雅黑;
-	margin: 0 10px;
-}
-
-.taber_item li:hover {
-	background-color: #f13a3a;
-	background-size: 100% 100%;
-}
-
-
 /* 导航条下的图片 */
 .tab_bak-img {
-	width: 1903px;
 	height: 400px;
-	cursor: default;
+	position: relative;
+	background-image: url("//14517553.s61i.faiusr.com/2/AD0IsYr2BhACGAAg4YS1zAUotNvyzAIwgA84oAY.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	overflow: hidden;
-	display: block;
-	outline: none;
-	margin: 0px auto;
-	position: relative;
-	z-index: 1;
-	background-size: cover;
-	background-image: url("//14517553.s61i.faiusr.com/2/AD0IsYr2BhACGAAg4YS1zAUotNvyzAIwgA84oAY.jpg");
 }
 
 .tab_bak-img div:nth-of-type(1) img {
@@ -460,7 +343,7 @@ html {
 	color: #333333;
 }
 
-.item5-left-content{
+.item5-left-content {
 	width: 790px;
 }
 
@@ -470,37 +353,45 @@ html {
 	color: #999999;
 	font-style: normal;
 }
-.item5-left-list li>a{
-	 display: inline-block;
-	 width: 250px;
-	 overflow: hidden;
-	 text-overflow:ellipsis;
-	 white-space: nowrap;
+
+.item5-left-list li>a {
+	display: inline-block;
+	width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #2b2b2b;
 }
-.item5-left-list li>span{
+.item5-left-list li>a:hover{
+	color: red;
+}
+.item5-left-list li>span {
 
 	vertical-align: top;
 }
 
-.item5-left-list{
+.item5-left-list {
 	margin-left: 20px;
 }
-.item5-left-list li{
+
+.item5-left-list li {
 	height: 46px;
 	line-height: 46px;
 	border-bottom: 1px dashed #eee;
 }
 
 
-.item5-content-right{
+.item5-content-right {
 	width: 385px;
 	margin-left: 20px;
 }
-.item5-right-title{
-	
+
+.item5-right-title {
+
 	border-bottom: 1px solid #eee;
 }
-.item5-right-title>p{
+
+.item5-right-title>p {
 	width: 80px;
 	font-size: 18px;
 	padding-top: 8px;
@@ -510,72 +401,4 @@ html {
 	height: 45px;
 	line-height: 45px;
 	border-bottom: 1px solid red;
-}
-
-
-
-/* 底部 */
-
-.footer{
-	background-color: #020202;
-}
-
-.footer-content{
-	display: flex;
-	justify-content: space-between;
-	color: #fff;
-	width: 1200px;
-	margin: 0 auto;
-	border-bottom:2px solid #eee ;
-}
-
-
-.footer-list{
-	display: flex;
-	line-height: 30px;
-	text-align: center;
-	padding: 20px 0;
-}
-.footer-list p{
-	font-size: 18px; 
-	color: #fff;
-}
-.footer-list a{
-	font-size: 14px;
-	color: rgb(153, 153, 153)
-}
-.footer-list-item1{
-	width: 121px;
-	margin-right: 30px;
-}
-.footer-list-item2,.footer-list-item3,.footer-list-item4{
-	width: 162px;
-}
-.shop-number{
-	float: right;
-	padding: 20px 0;
-}
-.shop-number p:nth-of-type(1){
-	font-size: 16px;
-	color: rgb(247, 247, 247);
-}
-.shop-number p:nth-of-type(2){
-	font-size: 36px;
-	 color: rgb(228, 57, 60);
-}
-
-.dizhi{
-	display: flex;
-	padding: 20px;
-	width: 1200px;
-	margin: 0 auto;
-	justify-content: space-between;
-	    font-size: 16px;
-	    color: rgb(124, 124, 124);
-}
-
-.text-btn a{
-	font-size: 16px;
-	color: rgb(124, 124, 124);
-	margin-left: 20px;
 }
