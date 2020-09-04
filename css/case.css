@@ -27,6 +27,9 @@
 	line-height: 45px;
 	text-indent: 10px;
 }
+.actives {
+	color: #ff0000 !important;
+}
 
 .left-item1,
 .left-item2 {

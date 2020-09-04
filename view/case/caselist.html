@@ -5,7 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../../css/initialize.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/headerFooter.css" />
-		<link rel="stylesheet" type="text/css" href="../../css/caselist.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/kkpager_orange.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/case.css" />
 		<title>工程案例</title>
 	</head>
 	<body>
@@ -46,6 +47,7 @@
 						<li id="tabli">
 							关于我们
 							<ul class="showlist">
+								<span></span>
 								<li><a href="../my/introduce.html">公司介绍</a></li>
 								<li><a href="../my/culture.html">企业文化</a></li>
 								<li><a href="../my/relation.html">联系我们</a></li>
@@ -56,82 +58,31 @@
 			</div>
 			<!-- 头部结束 -->
 
-			<div class="curtain"></div>
 
-			<div class="curtain-content">
-				<div class="curtain-content-list">
-					<div class="curtain-list-left">
-						<h3>工程案例</h3>
-						<p><a href=""  class="actives">建筑幕墙工程案例</a></p>
-						<p><a href="">建筑装饰装饰</a></p>
-						<p><a href="">钢结构工程</a></p>
-						<p><a href="">电子与智能化工程</a></p>
-						<p><a href="">防水防腐保温工程</a></p>
-					</div>
-					<div class="curtain-list-right">
-						<p>建筑幕墙工程案例</p>
-						<div class="list-right-img">
-							<div class="img-show">
-								<a class="photoPagena photoShowPrevIcon J_photoShowPrev"></a>
-								<div class="icon-center">
-									<img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAguLyF2wUoxqW3_gcw7gU4gwQ.png" alt="">
-								</div>
-								<a class="photoPagena photoShowNextIcon J_photoShowNext"></a>
-							</div>
-							<div class="img-list">
-								<ul class="img-list-item">
-									<li>
-										<img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAguLyF2wUoxqW3_gcw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-									<li>
-										<img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAguLyF2wUo_sHOwQEw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-									<li><img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAgu7yF2wUoqMKV-gcw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-									<li><img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAgvryF2wUo8YPjoAQw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-									<li><img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAgvryF2wUo8rnOsAIw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-									<li><img src="//14517553.s61i.faiusr.com/4/AD0IsYr2BhAEGAAgvryF2wUo5ezgigMw7gU4gwQ!160x160.png" alt="">
-										<div class="optices"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="img-title">
-								<div class="img-introduce">
-									<h4>详情介绍</h4>
-								</div>
-								<div class="img-share">
-									<div class="share-items">
-										<a href=""><span class="icon icon1"></span></a>
-										<a href=""><span class="icon icon2"></span></a>
-										<a href=""><span class="icon icon3"></span></a>
-									</div>
-									<div class="share-btn">
-										<span class="icon icons"></span>
-										<p>分享</p>
-										<span class="icon icons1"></span>
-									</div>
-									<div class="icon-list-item" style="display: none;">
-										<span class="icon icon1"></span>
-										<span class="icon icon2"></span>
-										<span class="icon icon3"></span>
-										<span class="icon icon4"></span>
-										<span class="icon icon5"></span>
-									</div>
-								</div>
-							</div>
+			<div class="case-item">
+				<div class="case-item-content">
+					<div class="case-item-left">
+						<div class="left-item2">
+							<h3>工程案例</h3>
+							<p><a href="caselist.html?fatherID=1">建筑幕墙工程案例</a></p>
+							<p><a href="caselist.html?fatherID=2">建筑装饰装饰</a></p>
+							<p><a href="caselist.html?fatherID=3">钢结构工程</a></p>
+							<p><a href="caselist.html?fatherID=4">电子与智能化工程</a></p>
+							<p><a href="caselist.html?fatherID=5">防水防腐保温工程</a></p>
 						</div>
 					</div>
+					<div class="case-item-right">
+						<div class="case-right-title">
+							<p></p>
+						</div>
+						<div class="case-img-list">
+							<ul></ul>
+							<div id="kkpager"></div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
-
-
 
 
 			<!-- 底部开始	 -->
@@ -142,8 +93,8 @@
 							<li>
 								<p>关于我们</p>
 							</li>
-							<li><a href="">公司介绍</a></li>
-							<li><a href="">企业文化</a></li>
+							<li><a href="../my/introduce.html">公司介绍</a></li>
+							<li><a href="../view/my/culture">企业文化</a></li>
 							<li><a href="">公司环境</a></li>
 							<li><a href="">公司荣誉</a></li>
 						</ul>
@@ -151,26 +102,25 @@
 							<li>
 								<p>工程案例</p>
 							</li>
-							<li><a href="">建筑幕墙工程</a></li>
-							<li><a href="">建筑装饰装修</a></li>
-							<li><a href="">刚结构工程</a></li>
-							<li><a href="">电子与智能工程</a></li>
-							<li><a href="">防水防腐保温工程</a></li>
+							<li><a href="../case/caselist.html?fatherID=1">建筑幕墙工程</a></li>
+							<li><a href="../case/caselist.html?fatherID=2">建筑装饰装修</a></li>
+							<li><a href="../case/caselist.html?fatherID=3">钢结构工程</a></li>
+							<li><a href="../case/caselist.html?fatherID=4">电子与智能工程</a></li>
+							<li><a href="../case/caselist.html?fatherID=5">防水防腐保温工程</a></li>
 						</ul>
 						<ul class="footer-list-item3">
 							<li>
 								<p>新闻动态</p>
 							</li>
-							<li><a href="">公司新闻</a></li>
-							<li><a href="">行业新闻</a></li>
-							<li><a href="">常见问题</a></li>
+							<li><a href="../journalism/company.html">公司新闻</a></li>
+							<li><a href="../journalism/industry.html">行业新闻</a></li>
+							<li><a href="../journalism/common.html">常见问题</a></li>
 						</ul>
 						<ul class="footer-list-item4">
 							<li>
 								<p>联系我们</p>
 							</li>
-							<li><a href="">在线留言</a></li>
-							<li><a href="">联系方式</a></li>
+							<li><a href="../my/relation.html">联系方式</a></li>
 						</ul>
 					</div>
 					<div class="shop-number">
@@ -185,9 +135,128 @@
 					<div class="text-btn"><a href="">关于我们</a><a href="">在线留言</a></div>
 				</div>
 			</div>
+			<div class="footer-bottom">
+				<div class="footer-bottom-item">
+					<p>
+						<span><a href="">手机版</a><span>|</span><span>本站使用</span></span>
+						<span><a href=""><span class="security"></span>发就发吧</a></span>
+					</p>
+				</div>
+			</div>
 		</div>
 
 		<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.2.1/jquery.min.js"></script>
 		<script src="../../js/headerFooter.js"></script>
+		<script src="../../js/kkpager.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/case.js"></script>
+		
+		<script>
+			
+			$(function(){
+				var fatherID = window.location.href.split("=")[1];
+				if(fatherID==1){
+					userIndex(fatherID)
+				}else if(fatherID==2){
+					userIndex(fatherID)
+				}else if(fatherID==3){
+					userIndex(fatherID)
+				}else if(fatherID==4){
+					userIndex(fatherID)
+				}else if(fatherID==5){
+					userIndex(fatherID)
+				}else{
+					fatherID=1
+					userIndex(fatherID)
+				}
+				$($(".left-item2 p")[fatherID-1]).find("a").addClass("actives")
+			})
+			
+			// 点击图片竟然相应的详情页
+			$(".case-img-list").on("click","li",function(e){
+				window.location.href = "casepage.html?id="+$(this)[0].id
+			})
+			
+			function getParameter(name) { 
+				var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"); 
+				var r = window.location.search.substr(1).match(reg); 
+				if (r!=null) return unescape(r[2]); return null;
+				console.log(name)
+			}
+			
+			//init
+			$(function(){
+				var totalPage = 10;
+				var totalRecords = 20;
+				var pageNo = getParameter('pno');
+				if(!pageNo){
+					 pageNo = 1;
+					//原本是实现无刷新跳转，我这是根据自己需求做的有刷新时跳转
+					// 如：www.baidu.com/abcd/index.jhtml
+				/*	let str=window.location.pathname;
+					let two; // 第二个斜杠后内容
+					let first = str.indexOf("/") + 1; 
+					let heng = str.indexOf("/", first);
+					if (heng == -1) {
+						} else {
+						  two = str.substring(heng).substring(1, str.length);
+						}
+					if(two=="index.jhtml"){  
+						pageNo = 1;
+					}else{
+						pageNo = num;//num是根据自己要点击第几页写的
+					}*/
+				}
+				//生成分页
+				//有些参数是可选的，比如lang，若不传有默认值
+				kkpager.generPageHtml({
+					pno : pageNo,
+					//总页码
+					total : totalPage,
+					//总数据条数
+					totalRecords : totalRecords,
+					mode : 'click',//默认值是link，可选link或者click
+					click : function(n){ 
+						this.selectPage(n);
+						// ajax(url,dataType,type,params,callback)
+						// 发送请求获取当前页的请求
+						// ajax()
+						
+			
+						if(n==1){
+							//原本是实现无刷新跳转，我这是根据自己需求做的有刷新时跳转
+							//第一页写逻辑跳转
+							// 如：window.location.href=......;
+							
+						}else{
+							//除了第一页写逻辑跳转
+						}
+						return false;
+					}
+					
+			/*		,lang: {
+						firstPageText			: '首页',
+						firstPageTipText		: '首页',
+						lastPageText			: '尾页',
+						lastPageTipText			: '尾页',
+						prePageText				: '上一页',
+						prePageTipText			: '上一页',
+						nextPageText			: '下一页',
+						nextPageTipText			: '下一页',
+						totalPageBeforeText		: '共',
+						totalPageAfterText		: '页',
+						currPageBeforeText		: '当前第',
+						currPageAfterText		: '页',
+						totalInfoSplitStr		: '/',
+						totalRecordsBeforeText	: '共',
+						totalRecordsAfterText	: '条数据',
+						gopageBeforeText		: '&nbsp;转到',
+						gopageButtonOkText		: '确定',
+						gopageAfterText			: '页',
+						buttonTipBeforeText		: '第',
+						buttonTipAfterText		: '页'
+					}*/
+				});
+			});
+		</script>
 	</body>
 </html>

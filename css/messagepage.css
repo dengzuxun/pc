@@ -1,0 +1,66 @@
+	.messagepage-container{
+					width: 1200px;
+					margin: 0 auto;
+					margin-top: 50px;
+				}
+				.messagepage-top{
+					display: flex;
+					/* justify-content: space-between; */
+				}
+				.messagepage-top img{
+					width: 600px;
+					height: 350px;
+				}
+				.messagepage-top-list{
+					padding-left: 20px;
+					font-weight: bold;
+				}
+				.messagepage-top-list h4{
+					font-size: 20px;
+					line-height: 40px;
+					font-weight: bold;
+				}
+				.messagepage-top-list p{
+					line-height: 70px;
+					font-size: 15px;
+				}
+				.messagepage-des{
+					margin: 40px 0;
+					border: 1px solid #eee;
+				}
+				.messagepage-top-list  span{
+					font-weight: 500;
+				}
+				.messagepage-title{
+					display: flex;
+					justify-content: space-between;
+					height: 60px;
+					line-height: 60px;
+					font-size: 13px;
+					color: #999999;;
+					border-bottom: 1px solid #eee;
+					padding: 0 20px;
+				}
+				.messagepage-text{
+					padding: 20px 20px;
+					line-height: 30px;
+				}
+				.messagepage-title-title{
+					font-size: 20px;
+					font-weight: bold;
+					color: #000000;
+				}
+				
+				.img-list-item{
+					display: flex;
+					justify-content: end;
+				}
+				.img-list-item img{
+					box-sizing: border-box;
+					width: 50px;
+					height: 50px;
+					margin: 0 10px;
+				}
+				.img-list-item img:hover{
+					border: 1px solid #0066FF;
+				}

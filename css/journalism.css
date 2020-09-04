@@ -13,6 +13,7 @@
 
 .journalism-left{
 	width: 220px;
+	margin-top: 10px;
 }
 .journalism-left h3{
 	font-size: 16px;
@@ -24,6 +25,7 @@
 }
 .journalism-left-footer{
 	border: 1px solid #eee;
+	text-indent: 10px;
 }
 .journalism-left-top{
 	padding-bottom: 10px;
@@ -45,11 +47,10 @@
 .journalism-left-footer a{
 	display: inline-block;
 	padding: 15px 0;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	color: #000000;
 	border-bottom: 1px dashed #eee;
-	text-indent: 5px;
 }
 
 .journalism-right{
@@ -75,4 +76,8 @@
 	border-bottom: 1px solid #000000;
 	font-size: 16px;
 	padding: 10px;
+}
+
+.activeas{
+	color: red !important;
 }
